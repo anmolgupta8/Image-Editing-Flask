@@ -7,6 +7,7 @@ UPLOAD_FOLDER = 'uploads'
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'webp', 'jpeg', 'gif'}
 
 app = Flask(__name__)
+app.static_folder = 'static'
 app.secret_key = 'super secret key'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
@@ -57,5 +58,13 @@ def edit():
             flash(f"Your image has been processed and is available <a href= '/{ni}' target='_blank'> here </a>")
             return render_template('index.html')
     return render_template("index.html")
+
+@app.route("/about")
+def about():
+    return render_template("about.html")
+
+@app.route("/how")
+def how():
+    return render_template("how.html")
 
 app.run(debug=True)

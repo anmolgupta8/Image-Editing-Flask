@@ -1,0 +1,63 @@
+/* style.css */
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #66ccff, #afef5b); /* Gradient from light blue to dark blue */
+    color: #333333; /* Dark gray text */
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background: linear-gradient(to right, #34aa1f, #4532d9); /* Gradient from yellow to orange */
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #333333; /* Dark gray */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333333; /* Dark gray */
+  }
+  
+  .navbar-toggler-icon {
+    border-color: #333333; /* Dark gray */
+  }
+  
+  /* Form Styles */
+  .form-control {
+    margin-right: 10px;
+  }
+  
+  .btn-outline-success {
+    color: #333333; /* Dark gray */
+    border-color: #333333; /* Dark gray */
+    background: linear-gradient(to right, #ffcc00, #ff9900); /* Gradient from yellow to orange */
+  }
+  
+  /* Alert Styles */
+  .alert {
+    margin-top: 20px;
+  }
+  
+  .alert-success {
+    background-color: #c3e6cb; /* Light green */
+    border-color: #73c2b6; /* Medium green */
+    color: #155724; /* Dark green */
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background: linear-gradient(to right, #ffcc00, #ff9900); /* Gradient from yellow to orange */
+    color: #333333; /* Dark gray */
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Add more styles as needed */
+  
